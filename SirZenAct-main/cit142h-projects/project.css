@@ -1,0 +1,118 @@
+header {
+    background-color: lightblue;
+    top: 0;
+    width: 109%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 127px;
+    margin-top: -11px;
+    margin-left: -10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 103px;
+    margin-right: 32px;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    color: black;
+    margin-right: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 33px;
+    margin-left: -29px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+.logo {
+    margin-right: 995px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 74px;
+    position: sticky;
+}
+
+.Icon{
+    width: 10%;
+    height: 20%;
+    margin-top: -51px;
+    margin-bottom: 27px;
+    margin-right: -803px;
+    margin-left: 7px;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+}
+
+.Home {
+    width: 10%;
+    height: 20%;
+    margin-top: -51px;
+    margin-bottom: 47px;
+    margin-right: -803px;
+    margin-left: -3px;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.Home:hover{
+    color: rgb(255, 255, 255);
+}
+
+.text {
+    text-align: center;
+    margin-top: 33px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px; /* Adjust the margin as needed */
+  }
+  
+  .circle {
+    background-color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+    height: 289px;
+    border-radius: 50%;
+    width: 319px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle img {
+    max-width: 665px;
+    max-height: 628px;
+    border-radius: 50%;
+    width: 317px;
+    height: 288px;
+  }
+
+  .circle p {
+    position: absolute;
+    bottom: 369px;
+    width: 96px;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-right: -1px;
+    font-size: x-large;
+  }
